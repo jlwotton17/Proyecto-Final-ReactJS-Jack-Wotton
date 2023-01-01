@@ -3,6 +3,7 @@ import ItemDetail from "../ItemDetail";
 import { useParams } from "react-router-dom";
 
 
+
 const products = [
     { id:1, price: 50, image: "https://cdn.sanity.io/images/jsdrzfkj/production-esmx/5e2316cc629ede9cd6646163efeafc5486161751-6240x4160.jpg?w=800&h=533&fit=crop", category: 'hamburguesas', title:"Hamburguesa SF"},
     { id:2, price: 60, image: "https://thumbs.dreamstime.com/b/hamburguesa-del-tocino-44262462.jpg", category: 'hamburguesas', title: "Hamgurguesa con tocino"},

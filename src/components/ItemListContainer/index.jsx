@@ -10,6 +10,7 @@ const products = [
     { id:4, price: 30, image: "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2016/09/malteadadechocolatecremacacahuate_0.jpg", category: 'complementos', title:"Malteadas"},
 ];
 
+
 export const ItemListContainer =({texto})=>{
     const [data, setData] = useState([]);
 
