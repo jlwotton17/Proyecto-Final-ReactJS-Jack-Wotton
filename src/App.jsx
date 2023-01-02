@@ -10,10 +10,12 @@ import React from 'react';
 
 function App() {
   return (
-    <>
+    <div>
       <BrowserRouter>
         <CartProvider>
-          <Navbar />
+          <div className='app__navbar'>
+            <Navbar />
+          </div>
           <Routes>
             <Route path='/' element={<ItemListContainer />}></Route>
             <Route path='/categoria/:categoriaId' element={<ItemListContainer />}></Route>
@@ -22,7 +24,7 @@ function App() {
           </Routes>    
         </CartProvider>    
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

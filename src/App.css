@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #fff59d;
+}
+
+.app__navbar{
+    background-color: #1b3039;
+}

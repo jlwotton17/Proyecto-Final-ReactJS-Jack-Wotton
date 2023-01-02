@@ -1,0 +1,36 @@
+.nav {
+    background-color: #1b3039;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.nav__brand {
+    margin-right: auto;
+}
+
+.nav__brand:hover {
+    transform: scale(1.2);
+}
+
+.nav__list {
+    list-style: none;
+}
+
+.nav__list li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav__list li:hover{
+    transform: scale(1.1);
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #eceff1;
+    font-size: 2vh;
+}
+
