@@ -7,11 +7,15 @@ const Item =({info})=>{
     
 
     return(
-        <Link to={`/detalle/${info.id}`} className='detalle__ham'>
+        <Link to={`/detalle/${info.id}`} className='detalle__comida'>
             <img src={info.image} alt='' />
-            <p>{info.title}</p>
+            <div className='detalle__info'>
+                <p className='detalle__title'>{info.title}</p>
+                <p>Precio: ${info.price}</p>
+            </div>
         </Link>
     )
 }
 
 export default Item;
+

@@ -25,6 +25,11 @@
     width: 100%;
 }
 
+.content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 @media screen and (min-width:768px) {
     .detail__image {
         width: 50%;
@@ -33,4 +38,23 @@
         padding-left: 3rem;
         width: 50%;
     }
+}
+
+.terminar {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #1b3039;
+    color: #eceff3;
+    padding: 9px 25px;
+}
+
+.but__inicio {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #1b3039;
+    color: #eceff3;
+    padding: 9px 25px;
+    margin-top: 15px;
 }

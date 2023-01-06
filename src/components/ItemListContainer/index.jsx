@@ -23,7 +23,7 @@ export const ItemListContainer =({texto})=>{
         const getData = new Promise(resolve => {
             setTimeout (() => {
                 resolve(products);
-            },2000);
+            },1000);
         });
         if(categoriaId){
             getData.then(res => setData(res.filter(hamburguesas => hamburguesas.category === categoriaId)))

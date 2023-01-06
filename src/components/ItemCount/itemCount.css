@@ -1,7 +1,40 @@
 .counter {
     width: fit-content;
-    background-color: gold;
+    background-color: #1b3039;
     margin: auto;
     padding: 1rem;
     text-align: center;
+    border: none;
+    border-radius: 50px;
+    color: #eceff3;
+
+}
+
+.but__addCart {
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff3;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 5px;
+}
+
+.but__add {
+    padding: 2px 10px;
+    background: #eceff3;
+    border: none;
+    border-radius: 50px;
+    margin-left: 8px;
+}
+
+.but__dec {
+    padding: 2px 10px;
+    background: #eceff3;
+    border: none;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
 }

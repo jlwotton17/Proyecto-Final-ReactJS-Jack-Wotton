@@ -9,3 +9,12 @@
     width: 200px;
     margin-right: 1rem;
 }
+
+.but__eliminar {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #1b3039;
+    color: #eceff3;
+    padding: 9px 25px;
+}

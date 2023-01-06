@@ -16,16 +16,21 @@ function App() {
           <div className='app__navbar'>
             <Navbar />
           </div>
+  
           <Routes>
+            
             <Route path='/' element={<ItemListContainer />}></Route>
             <Route path='/categoria/:categoriaId' element={<ItemListContainer />}></Route>
+            
             <Route path='/cart' element={<Cart />}></Route>
             <Route path='/detalle/:detalleId' element={<ItemDetailContainer />}></Route>
           </Routes>    
+        
         </CartProvider>    
       </BrowserRouter>
     </div>
   );
 }
+
 
 export default App;

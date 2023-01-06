@@ -21,12 +21,14 @@ export const ItemDetail =({data})=> {
                 <div className="content">
                     <>
                     <h1>{data.title}</h1>
+                    <p>Precio: ${data.price}</p>
                     {
-                        goToCart ? <Link to='/cart'>Terminar compra</Link> : <ItemCount initial={1} stock={20} onAdd={onAdd}/>
+                        goToCart ? <Link className='terminar' to='/cart'>Terminar compra</Link> : <ItemCount initial={1} stock={20} onAdd={onAdd}/>
                     }
+            
                     </>
-                    
                 </div>
+                <Link className="but__inicio" to='/'>Menú de comida</Link>
             </div>
         </div>
     )

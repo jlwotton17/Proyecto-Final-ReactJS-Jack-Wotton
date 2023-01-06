@@ -1,10 +1,23 @@
-.detalle__ham {
-    display: block;
+.detalle__comida {
+    display: flex;
+    flex-direction: column;
     width: 300px;
+    margin: 20px;
 }
 
-.detalle__ham img {
-    width: 100%;
-    height: 100%;
+.detalle__comida img {
+    height: 200px;
+    width: 300px;
     object-fit: cover;
+}
+
+.detalle__info {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-style: none;
+}
+
+.detalle__title {
+    font-weight: bold;
 }

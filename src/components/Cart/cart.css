@@ -1,0 +1,23 @@
+.but__sinComida {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #1b3039;
+    color: #eceff3;
+    padding: 9px 25px;
+
+}
+
+.sinComida {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.container__sinComida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
